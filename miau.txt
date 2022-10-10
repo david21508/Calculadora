@@ -1,0 +1,22 @@
+let a = 5;
+let b = 6;
+
+function multiplicar(a,b){
+    let mul = a*b
+    return mul;
+
+}
+
+console.log(multiplicar(a,b));
+
+function dividir (a,b){
+    if (b==0){
+    console.log("ey tonto polla como vas a dividir por el cero explicamelo")
+}
+else{
+    let division= a / b
+    return division;
+}
+
+}
+console.log(dividir(a,b));
